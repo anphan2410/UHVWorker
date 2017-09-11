@@ -27,7 +27,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    BinaryProtocol * uhvpump0;
     void updateSENDlabel(const QString &SENDstyleSheet = "",
                          const QString &SentMsgStr = "",
                          const QString &SentMessageStr = "");

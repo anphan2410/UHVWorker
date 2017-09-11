@@ -25,10 +25,29 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    UHVWorker/errorannouncement.cpp \
+    UHVWorker/messagereceiveandemitout.cpp \
+    UHVWorker/serialportconnectionestablishment.cpp \
+    UHVWorker/serialportinforequest.cpp \
+    UHVWorker/serialportinfovalidation.cpp \
+    UHVWorker/solitarymessagetransmission.cpp \
+    UHVWorker/uhvworker.cpp \
+    UHVWorker/uhvworkerdirectstatetransition.cpp \
+    UHVWorker/uhvworkervarset.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    anlogger.h \
+    UHVWorker/errorannouncement.h \
+    UHVWorker/messagereceiveandemitout.h \
+    UHVWorker/serialportconnectionestablishment.h \
+    UHVWorker/serialportinforequest.h \
+    UHVWorker/serialportinfovalidation.h \
+    UHVWorker/solitarymessagetransmission.h \
+    UHVWorker/uhvworker.h \
+    UHVWorker/uhvworkerdirectstatetransition.h \
+    UHVWorker/uhvworkervarset.h
 
 FORMS += \
         mainwindow.ui
